@@ -171,7 +171,7 @@
 <div id="content">
 	<div id="controls">
 		<h4>Census Subdivision Map</h4>
-		<h5>Click on a CSD to view information about it.</h5>
+		<h5>Click on a CSD to view information about it and use the checkboxes below to turn layers on and off.</h5>
 		<h5>Population:</h5>
 		<div class="controls">
 			{#each layers as layer}
