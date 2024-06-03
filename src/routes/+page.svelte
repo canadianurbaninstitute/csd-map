@@ -226,7 +226,7 @@
 	.label {
 		display: flex;
 		flex-direction: row;
-		padding: 0.5em;
+		padding: 0.4em;
 		gap: 0.5em;
 	}
 </style>
