@@ -8,38 +8,47 @@
 
 	let map;
 
+	// const layers = [
+	// 	{
+	// 		id: "1-10mil",
+	// 		label: "1 to 10 million",
+	// 		checked: true,
+	// 		color: "#001d29",
+	// 	},
+	// 	{
+	// 		id: "500k-1mil",
+	// 		label: "500k to 1 million",
+	// 		checked: true,
+	// 		color: "#002332",
+	// 	},
+	// 	{
+	// 		id: "100-500k",
+	// 		label: "100k to 500k",
+	// 		checked: true,
+	// 		color: "#004663",
+	// 	},
+	// 	{
+	// 		id: "75-100k",
+	// 		label: "75k to 100k",
+	// 		checked: true,
+	// 		color: "#016895",
+	// 	},
+	// 	{ id: "50-75k", label: "50k to 75k", checked: true, color: "#018bc6" },
+	// 	{ id: "40-50k", label: "40k to 50k", checked: true, color: "#01aef8" },
+	// 	{ id: "30-40k", label: "30k to 40k", checked: true, color: "#34bef9" },
+	// 	{ id: "20-30k", label: "20k to 30k", checked: true, color: "#67cefb" },
+	// 	{ id: "10-20k", label: "10k to 20k", checked: true, color: "#99dffc" },
+	// 	{ id: "1-10k", label: "1k to 10k", checked: true, color: "#cceffe" },
+	// 	{ id: "0-1k", label: "0 to 1k", checked: true, color: "#ebf9ff" },
+	// ];
+
+
 	const layers = [
-		{
-			id: "1-10mil",
-			label: "1 to 10 million",
-			checked: true,
-			color: "#001d29",
-		},
-		{
-			id: "500k-1mil",
-			label: "500k to 1 million",
-			checked: true,
-			color: "#002332",
-		},
-		{
-			id: "100-500k",
-			label: "100k to 500k",
-			checked: true,
-			color: "#004663",
-		},
-		{
-			id: "75-100k",
-			label: "75k to 100k",
-			checked: true,
-			color: "#016895",
-		},
-		{ id: "50-75k", label: "50k to 75k", checked: true, color: "#018bc6" },
-		{ id: "40-50k", label: "40k to 50k", checked: true, color: "#01aef8" },
-		{ id: "30-40k", label: "30k to 40k", checked: true, color: "#34bef9" },
-		{ id: "20-30k", label: "20k to 30k", checked: true, color: "#67cefb" },
-		{ id: "10-20k", label: "10k to 20k", checked: true, color: "#99dffc" },
-		{ id: "1-10k", label: "1k to 10k", checked: true, color: "#cceffe" },
-		{ id: "0-1k", label: "0 to 1k", checked: true, color: "#ebf9ff" },
+		{ id: "30-10mil", label: "30,000+", checked: true, color: "#eee" },
+		{ id: "20-30k", label: "20,000 to 30,000", checked: true, color: "#f8eb2a" },
+		{ id: "10-20k", label: "10,000 to 20,000", checked: true, color: "#9ef990" },
+		{ id: "1-10k", label: "1,000 to 10,000", checked: true, color: "#75d2fa" },
+		{ id: "0-1k", label: "0 to 1,000", checked: true, color: "#fb84c3" },
 	];
 
 	onMount(() => {
